@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+body {
+  background: brown;
+}
+form a {
+  margin-left: 5px;
+}
+
+form a, form button {
+  margin-top: 15px;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.Note {
+  background-image: url("media/paper_2.png");
+  -webkit-box-shadow: 10px 10px 43px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 43px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 43px 0px rgba(0, 0, 0, 0.75);
+  font-family: 'Courgette', cursive;
+  font-size: 25px;
+  height: 70vh;
+  margin: 30px auto;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  padding: 20px;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+.Note::-webkit-scrollbar {
+    display: none;
+}
+
+textarea {
+  height: 60vh !important;
+  resize: none;
+}
+
+.text-help {
+  color: red;
+}
